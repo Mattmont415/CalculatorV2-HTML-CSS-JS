@@ -67,15 +67,14 @@ button {
   transition: 0.3s;
 }
 
-
-button:active {
-  border: 0px;
-}
-
-
 button:hover {
   box-shadow: 0px 5px 4px darkorchid, 0px 7px 8px blue, 0px 14px 14px lightblue, 0px 20px 18px lightskyblue;
   color: plum;
+}
+
+button:active, button:focus {
+  outline: none;
+  background-color: rgb(49, 74, 100);
 }
 
 .buttons {
