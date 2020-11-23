@@ -7,12 +7,12 @@ body {
 }
 
 #calculator {
-  height: 950px;
+  height: 890px;
   width: 500px;
   position: relative;
-  top: 20%;
+  top: 10%;
   left: 35%;
-  border: 10px green solid;
+  border: 10px blueviolet solid;
   background-color: violet;
   border-radius: 30px;
   margin-top: 2%;
@@ -20,15 +20,31 @@ body {
 
 #display {
   background-color: blue;
+  font-weight: bold;
   color: whitesmoke;
 
   height: 150px;
   width: 445px;
 
   position: relative;
-  border: 10px seagreen solid;
+  border: 10px blueviolet solid;
   border-radius: 10px;
-  margin: 100px 17px 75px;
+  margin: 50px 17px 25px;
+}
+
+#rounding {
+
+  font-size: 24px;
+  color: black;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+}
+
+#getdigits {
+  height: 40px;
+  font-size: 24px;
+  width: 45px;
 }
 
 #inputarea, #answerarea {
@@ -36,10 +52,6 @@ body {
   height: 55px;
   padding: 8px;
   font-size: 28px;
-}
-
-#operand1, #operand2 {
-
 }
 
 #inputarea {

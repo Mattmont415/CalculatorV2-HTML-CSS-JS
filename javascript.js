@@ -13,6 +13,19 @@ const oper1 = document.getElementById('operand1');
 const oper2 = document.getElementById('operand2');
 const operatorinput = document.getElementById('operator');
 
+let decimalPlaces = 4;
+const rounder = document.getElementById('getdigits');
+
+//Working on rounding changing values
+// document.querySelectorAll('#rounding').forEach(item => {
+//   item.addEventListener('')
+// })
+rounder.addEventListener('input', updateValue);
+
+function updateValue(val) {
+  decimalPlaces = val.target.value;
+}
+
 //Gets information for update of operands
 document.querySelectorAll('.digitbutton').forEach(item => {
   item.addEventListener('click', event => {
@@ -26,6 +39,8 @@ document.querySelectorAll('.operatorbutton').forEach(item => {
     updateOperator(item.textContent);
   })
 });
+
+
 
 //Math Operations
 function add(a, b) {
@@ -97,7 +112,7 @@ function updateOperator(value) {
 }
 
 function roundAnswer(value) {
-  return parseFloat(value.toFixed(4));
+  return parseFloat(value.toFixed(decimalPlaces));
 }
 
 result.onclick = function() {
