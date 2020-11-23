@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <author hidden>Matthew Montana</author>
+    <title>Calculator!</title>
+    <link href="styles.css" rel="stylesheet">
+
+    <meta charset="UTF8">
+  </head>
+
+
+  <body>
+    <div id="calculator">
+      <div id="display">
+        <div id="inputarea">
+          <!-- Span will hold the operands and operators -->
+          <span id="operand1"></span>
+          <span id="operator"></span>
+          <span id="operand2"></span>
+        </div>
+
+        <div id="answerarea"></div>
+      </div>
+
+      <!-- Broken into rows of buttons  -->
+      <div id="buttons">
+        <div class="buttons">
+          <button class="specialbutton" id="clear">Clear</button>
+          <button class="specialbutton" id="backspace">Del</button>
+          <button class="operatorbutton" id="modulus">%</button>
+          <button class="operatorbutton" id="divide">/</button>
+        </div>
+
+        <div class="buttons">
+          <button class="digitbutton" id="seven">7</button>
+          <button class="digitbutton" id="eight">8</button>
+          <button class="digitbutton" id="nine">9</button>
+          <button class="operatorbutton" id="multiply">X</button>
+        </div>
+
+        <div class="buttons">
+          <button class="digitbutton" id="four">4</button>
+          <button class="digitbutton" id="five">5</button>
+          <button class="digitbutton" id="six">6</button>
+          <button class="operatorbutton" id="subtract">-</button>
+        </div>
+
+        <div class="buttons">
+          <button class="digitbutton" id="one">1</button>
+          <button class="digitbutton" id="two">2</button>
+          <button class="digitbutton" id="three">3</button>
+          <button class="operatorbutton" id="add">+</button>
+        </div>
+
+        <div class="buttons">
+          <button class="digitbutton" id="zero">0</button>
+          <button class="specialbutton" id="dot">.</button>
+          <button class="resultbutton" id="equals">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Importing javscript file, must be at EOF? -->
+  <script src="javascript.js"></script>
+
+
+
+</html>
