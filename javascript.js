@@ -76,7 +76,7 @@ function doMath(operator, operand1, operand2) {
     return multiply(operand1, operand2);
   } else if (operator === '/') {
     return divide(operand1, operand2);
-  } else if (operator === '%') {
+  } else if (operator === '%(Mod)') {
     return modulus(operand1, operand2);
   }
 }
