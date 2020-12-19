@@ -26,10 +26,8 @@ body {
   background-color: blue;
   font-weight: bold;
   color: whitesmoke;
-
   height: 150px;
   width: 445px;
-
   position: relative;
   border: 10px blueviolet solid;
   border-radius: 10px;
@@ -37,7 +35,6 @@ body {
 }
 
 #rounding {
-
   font-size: 24px;
   color: black;
   position: relative;
@@ -74,14 +71,12 @@ button {
   border: 5px solid blue ;
   border-radius: 30%;
   background-color: black;
-
   font-family: "Comic Sans Ms", serif;
   color: lightgoldenrodyellow;
   font-size: 37px;
   margin: auto;
   position: relative;
   left: 12px;
-
   /* Animation */
   transition: 0.3s;
 }
